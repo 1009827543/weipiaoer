@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.item>img{
+	width: 100%;
+}
+@media (max-width: 1000px){
+    		.myform{
+                display: none;
+            }
+    	}
+ @media (max-width: 768px) {
+            
+           .myul{
+                float: right;
+                position: absolute;
+                top: 0px;
+                left: 50%;
+                font-size: 14px;
+                margin-left: 6px;
+              }
+            .myul>li{
+                float: left;
+
+            }
+            .myul>li>a{
+                font-size: 1em;
+                padding: 10px 6px;
+            }
+        }
+.a>div>div{
+		position: relative;
+	    margin-bottom: 30px;
+	    text-shadow: 1px 1px 1px gray;
+	    /*background-position: center center;
+	    background-repeat: no-repeat;*/
+	    background-size: cover;
+	    border: 1px solid #E4E4E4;
+	    padding: 10px;
+	  }
+.b>div>div{
+		position: relative;
+	    margin-bottom: 30px;
+	    text-shadow: 1px 1px 1px gray;
+	    /*background-position: center center;
+	    background-repeat: no-repeat;*/
+	    background-size: cover;
+	    border: 1px solid #E4E4E4;
+	    padding: 20px;
+	  }
